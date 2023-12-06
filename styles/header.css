@@ -1,0 +1,120 @@
+
+.header{
+    display:flex;
+    flex-direction: row;
+    height: 55px;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    position: fixed;
+    background-color: white;
+    top:0px;
+    right:0px;
+    left:0px;
+    border-bottom: 1px solid rgb(220, 212, 212);
+    z-index: 100;
+}
+.header-left{
+    
+    display: flex;
+    
+    justify-content: space-between;
+}
+.header-middle{
+    display: flex;
+    align-items: center;
+    flex: 1;
+    max-width: 470px;
+    margin-left: 50px;
+}
+.header-right{
+    width:200px;
+    display: flex;
+    margin-right: 20px;  
+    justify-content: space-between;  
+    align-items: center;
+    flex-shrink: 0;
+    margin-left:20px;
+}
+.three-line-img{
+    width:24px;
+    margin-left:24px;
+    margin-right:20px;
+}
+.youtube-icon-img{
+    width:92px;
+}
+.search-bar-inside{
+   height:36px;
+   flex:1;
+   font-size: 16px;
+   border: 1px solid #cccccc;
+   box-shadow: inset 0px 1px 2px #eeeeee;
+   padding-left: 12px;
+   width: 0;
+}
+  
+.search-icon-img{
+    width:24px;
+    margin-top:2px;
+    
+}
+.microphone-icon-img{
+    width:24px;
+}
+.search-btn{
+    height: 39px;
+    width: 64px;
+    border: 1px solid #cccccc;
+    border-left: none;
+    border-top-right-radius: 2px;
+    border-bottom-right-radius: 2px;
+    background-color: #f7f7f7;
+    cursor: pointer;
+    margin-right: 8px;
+    position: relative;
+}
+ .tool-tip{
+    background-color: rgb(169, 166, 166);
+    padding: 4px 6px 4px 6px;
+    position: absolute;
+    bottom:-30px;
+    color: rgb(255, 255, 255);
+    font-weight: 500;
+    font-family: Roboto,Arial;
+    opacity: 0;
+    transition: opacity 0.15s;
+}
+.search-btn:hover .tool-tip{
+    opacity: 1;
+}
+
+.microphone-btn:hover .tool-tip{
+    opacity:1;
+}
+
+.microphone-btn{
+    cursor: pointer;
+    height: 40px;
+    width: 40px;
+    border-radius: 20px;
+    border: none;
+    background-color: #f8f8f8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.upload-img{
+    width:24px;
+}
+.youtube-apps-img{
+    width:24px;
+}
+.notification-img{
+    width:24px;
+}
+.profile-img{
+    height: 35px;
+    width: 35px;
+    border-radius: 50%;
+    
+}

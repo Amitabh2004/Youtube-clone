@@ -1,0 +1,95 @@
+.side-bar{
+    position: fixed;
+    left:0px;
+    bottom:0px;
+    top:54px;
+    z-index: 1000;
+    background-color: white;
+    width:74px;
+    display: flex;
+    flex-direction: column;
+}
+.home-img{
+    width:25px;
+}
+.explore-img{
+    width: 25px;
+}
+.subscription-img{
+    width:25px;
+}
+.originals-img{
+    width:25px;
+}
+.youtube-music-img{
+    width:25px;
+}
+.library-img{
+    width:25px;
+}
+.home-btn{
+    height: 74px;
+    width: 100%;
+    background-color: white;
+    border: none;
+    cursor: pointer;
+}
+.home-btn:hover{
+    background-color: #eeeeee;
+}
+.explore-btn{
+    height: 74px;
+    width: 100%;
+    background-color: white;
+    border: none;
+    cursor: pointer;
+}
+.explore-btn:hover{
+    background-color: #eeeeee;
+}
+.subscription-btn{
+    height: 74px;
+    width: 100%;
+    background-color: white;
+    border: none;
+    cursor: pointer;
+}
+.subscription-btn:hover{
+    background-color: #eeeeee;
+}
+.originals-btn{
+    height: 74px;
+    width: 100%;
+    background-color: white;
+    border: none;
+    cursor: pointer;
+}
+.originals-btn:hover{
+    background-color: #eeeeee;
+}
+.youtube-music-btn{
+    height: 74px;
+    width: 100%;
+    background-color: white;
+    border: none;
+    cursor: pointer;
+}
+.youtube-music-btn:hover{
+    background-color: #eeeeee;
+}
+.library-btn{
+    height: 74px;
+    width: 100%;
+    background-color: white;
+    border: none;
+    cursor: pointer;
+}
+.library-btn:hover{
+    background-color: #eeeeee;
+}
+
+.para{
+    font-size: 10px;
+    font-weight: 400;
+}
+
